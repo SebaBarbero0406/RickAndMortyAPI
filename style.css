@@ -1,0 +1,44 @@
+#container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+  }
+  
+  .card{
+    width: 220px;
+    height: 220px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 163, 38);
+    border: 5px solid rgb(94, 94, 241);
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 10px 9px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .nombre_card{
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .containerimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 4px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid;
+  }
+  
+  .imgRickandMorty{
+    width: 95px;
+    border-radius: 100%;
+    border: solid;
+  }
